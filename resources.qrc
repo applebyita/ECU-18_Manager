@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/acqua.png</file>
+        <file>Resources/allarme.png</file>
+        <file>Resources/AllarmeTrasparente.png</file>
+        <file>Resources/batteria.png</file>
+        <file>Resources/elenco1.png</file>
+        <file>Resources/gasolio.png</file>
+        <file>Resources/GMP.png</file>
+        <file>Resources/LEDGiallo.png</file>
+        <file>Resources/LEDGrigio.png</file>
+        <file>Resources/LEDRosso.png</file>
+        <file>Resources/LEDVerde.png</file>
+        <file>Resources/LogoTeam.png</file>
+        <file>Resources/map.png</file>
+        <file>Resources/MOTOR.png</file>
+        <file>Resources/Negative_256x256.png</file>
+        <file>Resources/PLSMP.png</file>
+        <file>Resources/PLSMP_MC.png</file>
+        <file>Resources/Refresh_256x256.png</file>
+        <file>Resources/Startec260.png</file>
+        <file>Resources/STOP.png</file>
+        <file>Resources/TEAM.png</file>
+        <file>Resources/Timer.png</file>
+        <file>Resources/Timer.qml</file>
+        <file>Resources/Tumblermultiplo.qml</file>
+        <file>Resources/UpdateStartec.png</file>
+        <file>Resources/Upload_256x256.png</file>
+        <file>Resources/utente.png</file>
+        <file>Resources/WarningTrasparente.png</file>
+        <file>Resources/Webp.net-resizeimage.png</file>
+        <file>Resources/WiFi.png</file>
+        <file>Resources/map.qml</file>
+    </qresource>
+</RCC>

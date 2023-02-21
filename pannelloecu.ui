@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PannelloECU</class>
+ <widget class="QWidget" name="PannelloECU">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>526</width>
+    <height>491</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>PannelloECU</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <widget class="QWidget" name="page_Status">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_3" rowstretch="1,66,33" columnstretch="80,20">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item row="2" column="0">
+          <widget class="QLineEdit" name="lineEdit_Rec">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>48</pointsize>
+            </font>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_RPM">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>48</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_Press">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>48</pointsize>
+              </font>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="1">
+          <widget class="QFrame" name="frameGasolio">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_2">
+              <property name="styleSheet">
+               <string notr="true">border: 0px;
+background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap resource="resources.qrc">:/Resources/gasolio.png</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>false</bool>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QProgressBar" name="progressBar">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">  QProgressBar {
+      border: 2px solid grey;
+      border-radius: 8px;
+  }
+
+  QProgressBar::chunk {
+      background-color:  rgb(255, 170, 0);
+  }</string>
+              </property>
+              <property name="value">
+               <number>29</number>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+              <property name="textVisible">
+               <bool>false</bool>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="invertedAppearance">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QFrame" name="frameTemp">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_Temp">
+              <property name="font">
+               <font>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border: 0px;
+background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="autoFillBackground">
+               <bool>false</bool>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border: 0px;
+background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap resource="resources.qrc">:/Resources/acqua.png</pixmap>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_VBat">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="30,70">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="label_VBatIcon">
+            <property name="font">
+             <font>
+              <pointsize>24</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 0px;
+background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap resource="resources.qrc">:/Resources/batteria.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_VBat">
+            <property name="font">
+             <font>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border: 0px;
+background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_Alarm">
+      <layout class="QGridLayout" name="gridLayout_4">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
